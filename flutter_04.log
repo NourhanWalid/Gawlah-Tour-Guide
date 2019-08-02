@@ -1,0 +1,136 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+StateError: Bad state: Cannot add new events after calling close
+
+```
+#0      _BroadcastStreamController.add (dart:async/broadcast_stream_controller.dart:249:24)
+#1      _IOSSimulatorLogReader._onDeviceLine (package:flutter_tools/src/ios/simulators.dart:640:26)
+#2      _rootRunUnary (dart:async/zone.dart:1132:38)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#4      _CustomZone.runUnaryGuarded (dart:async/zone.dart:931:7)
+#5      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:336:11)
+#6      _BufferingStreamSubscription._add (dart:async/stream_impl.dart:263:7)
+#7      _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:68:11)
+#8      _EventSinkWrapper.add (dart:async/stream_transformers.dart:15:11)
+#9      _StringAdapterSink.add (dart:convert/string_conversion.dart:236:11)
+#10     _LineSplitterSink._addLines (dart:convert/line_splitter.dart:150:13)
+#11     _LineSplitterSink.addSlice (dart:convert/line_splitter.dart:125:5)
+#12     StringConversionSinkMixin.add (dart:convert/string_conversion.dart:163:5)
+#13     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:120:24)
+#14     _rootRunUnary (dart:async/zone.dart:1132:38)
+#15     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#16     _CustomZone.runUnaryGuarded (dart:async/zone.dart:931:7)
+#17     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:336:11)
+#18     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:263:7)
+#19     _SinkTransformerStreamSubscription._add (dart:async/stream_transformers.dart:68:11)
+#20     _EventSinkWrapper.add (dart:async/stream_transformers.dart:15:11)
+#21     _StringAdapterSink.add (dart:convert/string_conversion.dart:236:11)
+#22     _StringAdapterSink.addSlice (dart:convert/string_conversion.dart:241:7)
+#23     _Utf8ConversionSink.addSlice (dart:convert/string_conversion.dart:312:20)
+#24     _Utf8ConversionSink.add (dart:convert/string_conversion.dart:305:5)
+#25     _ConverterStreamEventSink.add (dart:convert/chunked_conversion.dart:72:18)
+#26     _SinkTransformerStreamSubscription._handleData (dart:async/stream_transformers.dart:120:24)
+#27     _rootRunUnary (dart:async/zone.dart:1132:38)
+#28     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#29     _CustomZone.runUnaryGuarded (dart:async/zone.dart:931:7)
+#30     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:336:11)
+#31     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:263:7)
+#32     _SyncStreamController._sendData (dart:async/stream_controller.dart:764:19)
+#33     _StreamController._add (dart:async/stream_controller.dart:640:7)
+#34     _StreamController.add (dart:async/stream_controller.dart:586:5)
+#35     _Socket._onData (dart:io-patch/socket_patch.dart:1786:41)
+#36     _rootRunUnary (dart:async/zone.dart:1136:13)
+#37     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#38     _CustomZone.runUnaryGuarded (dart:async/zone.dart:931:7)
+#39     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:336:11)
+#40     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:263:7)
+#41     _SyncStreamController._sendData (dart:async/stream_controller.dart:764:19)
+#42     _StreamController._add (dart:async/stream_controller.dart:640:7)
+#43     _StreamController.add (dart:async/stream_controller.dart:586:5)
+#44     new _RawSocket.<anonymous closure> (dart:io-patch/socket_patch.dart:1335:33)
+#45     _NativeSocket.issueReadEvent.issue (dart:io-patch/socket_patch.dart:856:14)
+#46     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#47     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#48     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:116:13)
+#49     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:173:5)
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, v1.7.8+hotfix.3, on Mac OS X 10.14.6 18G84, locale en-US)
+    [32m•[39m Flutter version 1.7.8+hotfix.3 at /Users/xcode/Downloads/flutter
+    [32m•[39m Framework revision b712a172f9 (3 weeks ago), 2019-07-09 13:14:38 -0700
+    [32m•[39m Engine revision 54ad777fd2
+    [32m•[39m Dart version 2.4.0
+
+[33m[!][39m Android toolchain - develop for Android devices
+    [32m•[39m Android SDK at /Users/xcode/Library/Android/sdk
+    [32m•[39m Android NDK location not configured (optional; useful for native profiling support)
+    [31m✗[39m Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+      You may also want to add it to your PATH environment variable.
+
+    [31m✗[39m No valid Android SDK platforms found in /Users/xcode/Library/Android/sdk/platforms. Directory was
+      empty.
+    [32m•[39m Try re-installing or updating your Android SDK,
+      visit https://flutter.dev/setup/#android-setup for detailed instructions.
+
+[33m[!][39m Xcode - develop for iOS and macOS (Xcode 10.2)
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Xcode 10.2, Build version 10E125
+    [31m✗[39m CocoaPods not installed.
+        CocoaPods is used to retrieve the iOS and macOS platform side's plugin code that responds to your
+        plugin usage on the Dart side.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/platform-plugins
+      To install:
+        brew install cocoapods
+        pod setup
+    [33m![39m Brew can be used to install CocoaPods.
+      Download brew at https://brew.sh/.
+
+[31m[✗][39m iOS tools - develop for iOS devices
+    [31m✗[39m libimobiledevice and ideviceinstaller are not installed. To install with Brew, run:
+        brew update
+        brew install --HEAD usbmuxd
+        brew link usbmuxd
+        brew install --HEAD libimobiledevice
+        brew install ideviceinstaller
+    [31m✗[39m ios-deploy not installed. To install:
+        brew install ios-deploy
+    [33m![39m Brew can be used to install tools for iOS device development.
+      Download brew at https://brew.sh/.
+
+[33m[!][39m Android Studio (version 2.3)
+    [32m•[39m Android Studio at /Applications/Android Studio.app/Contents
+    [31m✗[39m Flutter plugin not installed; this adds Flutter specific functionality.
+    [31m✗[39m Dart plugin not installed; this adds Dart specific functionality.
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+
+[33m[!][39m IntelliJ IDEA Community Edition (version 2017.1.3)
+    [32m•[39m IntelliJ at /Applications/IntelliJ IDEA CE.app
+    [31m✗[39m Flutter plugin not installed; this adds Flutter specific functionality.
+    [31m✗[39m Dart plugin not installed; this adds Dart specific functionality.
+    [32m•[39m For information about installing plugins, see
+      https://flutter.dev/intellij-setup/#installing-the-plugins
+
+[32m[✓][39m VS Code (version 1.36.1)
+    [32m•[39m VS Code at /Applications/Visual Studio Code.app/Contents
+    [32m•[39m Flutter extension version 3.2.0
+
+[32m[✓][39m Connected device (1 available)
+    [32m•[39m iPhone Xʀ • 5796162C-4E62-41BE-A878-444B5588FEE9 • ios • com.apple.CoreSimulator.SimRuntime.iOS-12-2
+      (simulator)
+
+[33m![39m Doctor found issues in 5 categories.
+```
