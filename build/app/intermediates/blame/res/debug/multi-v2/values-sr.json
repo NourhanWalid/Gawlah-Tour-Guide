@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\Almoatasem Bellah\\Documents\\GitHub\\Gawlah-Tour-Guide\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\62531fcd8bba0e854db3388db5e6dc26\\res\\values-sr\\values.xml",
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\67178fd29d9a8abb384be8e9325fe34d\\res\\values-sr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,537,661,769,982,1107,1245,1372,1580,1685,1876,2001,2209,2377,2471,2562",
+                        "endColumns": "103,187,123,107,212,124,137,126,207,104,190,124,207,167,93,90,104",
+                        "endOffsets": "348,536,660,768,981,1106,1244,1371,1579,1684,1875,2000,2208,2376,2470,2561,2666"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "229,337,525,653,765,978,1107,1249,1569,1777,1886,2077,2206,2414,2586,2684,2779",
+                        "endColumns": "107,187,127,111,212,128,141,130,207,108,190,128,207,171,97,94,108",
+                        "endOffsets": "332,520,648,760,973,1102,1244,1375,1772,1881,2072,2201,2409,2581,2679,2774,2883"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\ff856da4a70ef013a5f10ec29e8814a8\\res\\values-sr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,2888,2981,3102,3236,3367,3498,3632",
                         "endColumns": "123,92,120,133,130,130,133,99",
                         "endOffsets": "224,2976,3097,3231,3362,3493,3627,3727"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a5a06de4404e8fb423b4f107639c1593\\res\\values-sr\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,537,661,769,982,1107,1245,1372,1580,1685,1876,2001,2209,2377,2471,2562",
-                        "endColumns": "103,187,123,107,212,124,137,126,207,104,190,124,207,167,93,90,104",
-                        "endOffsets": "348,536,660,768,981,1106,1244,1371,1579,1684,1875,2000,2208,2376,2470,2561,2666"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "229,337,525,653,765,978,1107,1249,1569,1777,1886,2077,2206,2414,2586,2684,2779",
-                        "endColumns": "107,187,127,111,212,128,141,130,207,108,190,128,207,171,97,94,108",
-                        "endOffsets": "332,520,648,760,973,1102,1244,1375,1772,1881,2072,2201,2409,2581,2679,2774,2883"
                     }
                 },
                 {

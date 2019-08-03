@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Almoatasem Bellah\\Documents\\GitHub\\Gawlah-Tour-Guide\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a5a06de4404e8fb423b4f107639c1593\\res\\values-zh-rHK\\values.xml",
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\67178fd29d9a8abb384be8e9325fe34d\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -18,6 +18,23 @@
                         "startOffsets": "213,316,476,593,697,863,981,1113,1402,1571,1674,1834,1951,2117,2255,2340,2427",
                         "endColumns": "102,159,116,103,165,117,131,121,168,102,159,116,165,137,84,86,100",
                         "endOffsets": "311,471,588,692,858,976,1108,1230,1566,1669,1829,1946,2112,2250,2335,2422,2523"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\ff856da4a70ef013a5f10ec29e8814a8\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "166",
+                        "endOffsets": "417"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "1235",
+                        "endColumns": "166",
+                        "endOffsets": "1397"
                     }
                 },
                 {
@@ -52,23 +69,6 @@
                         "startOffsets": "105,2528,2609,2708,2811,2913,3015,3117",
                         "endColumns": "107,80,98,102,101,101,101,89",
                         "endOffsets": "208,2604,2703,2806,2908,3010,3112,3202"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\62531fcd8bba0e854db3388db5e6dc26\\res\\values-zh-rHK\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "166",
-                        "endOffsets": "417"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "1235",
-                        "endColumns": "166",
-                        "endOffsets": "1397"
                     }
                 }
             ]

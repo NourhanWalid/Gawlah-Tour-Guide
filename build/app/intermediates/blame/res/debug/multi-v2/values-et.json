@@ -4,20 +4,20 @@
             "outputFile": "C:\\Users\\Almoatasem Bellah\\Documents\\GitHub\\Gawlah-Tour-Guide\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\62531fcd8bba0e854db3388db5e6dc26\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-base-16.0.1.aar\\67178fd29d9a8abb384be8e9325fe34d\\res\\values-et\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,346,540,665,771,980,1107,1249,1377,1596,1702,1897,2027,2241,2412,2501,2592",
+                        "endColumns": "100,193,124,105,208,126,141,127,218,105,194,129,213,170,88,90,112",
+                        "endOffsets": "345,539,664,770,979,1106,1248,1376,1595,1701,1896,2026,2240,2411,2500,2591,2704"
                     },
                     "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "1376",
-                        "endColumns": "198",
-                        "endOffsets": "1570"
+                        "startLines": "3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "220,325,519,648,758,967,1098,1244,1575,1794,1904,2099,2233,2447,2622,2715,2810",
+                        "endColumns": "104,193,128,109,208,130,145,131,218,109,194,133,213,174,92,94,116",
+                        "endOffsets": "320,514,643,753,962,1093,1239,1371,1789,1899,2094,2228,2442,2617,2710,2805,2922"
                     }
                 },
                 {
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a5a06de4404e8fb423b4f107639c1593\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\Almoatasem Bellah\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-16.0.1.aar\\ff856da4a70ef013a5f10ec29e8814a8\\res\\values-et\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,346,540,665,771,980,1107,1249,1377,1596,1702,1897,2027,2241,2412,2501,2592",
-                        "endColumns": "100,193,124,105,208,126,141,127,218,105,194,129,213,170,88,90,112",
-                        "endOffsets": "345,539,664,770,979,1106,1248,1376,1595,1701,1896,2026,2240,2411,2500,2591,2704"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "220,325,519,648,758,967,1098,1244,1575,1794,1904,2099,2233,2447,2622,2715,2810",
-                        "endColumns": "104,193,128,109,208,130,145,131,218,109,194,133,213,174,92,94,116",
-                        "endOffsets": "320,514,643,753,962,1093,1239,1371,1789,1899,2094,2228,2442,2617,2710,2805,2922"
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "1376",
+                        "endColumns": "198",
+                        "endOffsets": "1570"
                     }
                 },
                 {
