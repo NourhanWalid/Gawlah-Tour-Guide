@@ -1,5 +1,9 @@
-import 'package:flutter/material.dart';
+import 'dart:ui';
 
+import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' as prefix1;
+import 'package:gawla/spacer.dart' as prefix0;
+import 'package:palette_generator/palette_generator.dart';
 import '../itemview.dart';
 
 class ItemCard extends StatelessWidget {
@@ -9,167 +13,191 @@ class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){
-
+      onTap: () {
         //Navigator.push(context, MaterialPageRoute(
-          //builder: (context)=>Scaffold(body: ItemView()),
-
-
-
-
+        //builder: (context)=>Scaffold(body: ItemView()),
 
         //));
       },
-      
-          child: this.size== 'big'? Container(
-        child: Stack(
-          children: <Widget>[
-            Container(
-                height: MediaQuery.of(context).size.width*0.72,
-                width: MediaQuery.of(context).size.width*0.7,
-                child: Hero(
-                  tag: 'tour',
-                  //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
-                        child: Image.network(
-                    
-                    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Louvre_Museum_icon_1.svg/550px-Louvre_Museum_icon_1.svg.png',
-                    fit: BoxFit.fill,
-
-                    
-                  ),
-                )),
+      child: this.size == 'big'
+          ? Stack(
+              children: <Widget>[
+                Container(
+                    height: MediaQuery.of(context).size.width * 0.72,
+                    width: MediaQuery.of(context).size.width * 0.7,
+                    child: Hero(
+                      tag: 'tour',
+                      //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
+                      child: Image.network(
+                        'https://uploads2.wikiart.org/images/kamal-ud-din-behzad/yusef-and-zuleykha-detail-1488.jpg',
+                        fit: BoxFit.fill,
+                      ),
+                    )),
                 Positioned(
                   top: 20,
                   left: 10,
-                                child: Container(
-                    
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(2),color: Colors.tealAccent,),
-                    height: MediaQuery.of(context).size.height*0.03,
-                    width: MediaQuery.of(context).size.width*0.5,
-                    child: Center(
-                      child: Text('MIDDLE AGES COLLECTION',style:TextStyle(fontSize:12,color:Colors.black,fontWeight:FontWeight.bold)),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(2),
+                      color: Colors.tealAccent,
                     ),
-                  ),
-                ),
-            Positioned(
-              left: MediaQuery.of(context).size.width*0.05,
-              right: MediaQuery.of(context).size.width*0.05,
-              top: MediaQuery.of(context).size.height*0.5,
-              //bottom: MediaQuery.of(context).size.height*0.02,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    'Birth of Venus',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                      color: Colors.white, height: 1.2
-                    ),
-                  ),
-                  Text(
-                    'Sandro Boticelli',
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.white, //height: 1.8
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 20),
-                    child: Container(height: MediaQuery.of(context).size.height*0.005,
-                    width: MediaQuery.of(context).size.width*0.95,
-                    color: Colors.white,),
-                  ),
-
-                  Padding(
-                    padding: const EdgeInsets.only(top:15.0),
+                    height: MediaQuery.of(context).size.height * 0.03,
+                    width: MediaQuery.of(context).size.width * 0.5,
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text('1484-1486',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white,fontSize: 14),)
+                        Text('MIDDLE AGES COLLECTION',
+                            style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold)),
                       ],
                     ),
                   ),
-
-                ],
-              ),
-            ),
-          ],
-        ),
-      ):
-      Stack(
-          children: <Widget>[
-            Container(
-                height: MediaQuery.of(context).size.width*0.56,
-                width: MediaQuery.of(context).size.width*0.5,
-                child: Hero(
-                  tag: 'tour',
-                  //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
-                        child: Image.network(
-                    
-                    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Louvre_Museum_icon_1.svg/550px-Louvre_Museum_icon_1.svg.png',
-                    fit: BoxFit.fill,
-
-                    
-                  ),
-                )),
+                ),
                 Positioned(
-                  top: 10,
-                  left: 10,
-                                child: Container(
-                    
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(2),color: Colors.tealAccent,),
-                    height: MediaQuery.of(context).size.height*0.015,
-                    width: MediaQuery.of(context).size.width*0.4,
-                    child: Center(
-                      child: Text('MIDDLE AGES COLLECTION',style:TextStyle(fontSize:10,color:Colors.black,fontWeight:FontWeight.bold)),
+                  left: MediaQuery.of(context).size.width * 0.05,
+                  right: MediaQuery.of(context).size.width * 0.05,
+                  top: MediaQuery.of(context).size.height * 0.5,
+                  //bottom: MediaQuery.of(context).size.height*0.02,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        'Seduction Of Yusuf',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Colors.white,
+                            height: 1.2),
+                      ),
+                      Text(
+                        'Bihzad',
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.white, //height: 1.8
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          height: MediaQuery.of(context).size.height * 0.005,
+                          width: MediaQuery.of(context).size.width * 0.95,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 15.0),
+                        child: Row(
+                          children: <Widget>[Text('1484-1486')],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            )
+          : Stack(
+              children: <Widget>[
+                Container(
+                    height: MediaQuery.of(context).size.width * 0.6,
+                    width: MediaQuery.of(context).size.width * 0.5,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(40))),
+                    child: Hero(
+                      tag: 'tour',
+                      //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
+                      child: Image.network(
+                        'https://uploads2.wikiart.org/images/kamal-ud-din-behzad/yusef-and-zuleykha-detail-1488.jpg',
+                        fit: BoxFit.fill,
+                      ),
+                    )),
+                ClipRect(
+                  child: new BackdropFilter(
+                    filter: new ImageFilter.blur(sigmaX: .7, sigmaY: .7),
+                    child: new Container(
+                      width: MediaQuery.of(context).size.width * 0.5,
+                      height: MediaQuery.of(context).size.width * 0.6,
+                      decoration: new BoxDecoration(
+                          color: Colors.grey.shade200.withOpacity(0.1),
+                          borderRadius: BorderRadius.all(Radius.circular(40))),
                     ),
                   ),
                 ),
-            Positioned(
-              left: MediaQuery.of(context).size.width*0.05,
-              right: MediaQuery.of(context).size.width*0.05,
-              top: MediaQuery.of(context).size.height*0.18,
-              bottom: MediaQuery.of(context).size.height*0.02,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    'Birth of Venus',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                      color: Colors.white, height: 1.2
-                    ),
+                Positioned(
+                  left: MediaQuery.of(context).size.width * 0.72 * .05,
+                  bottom: MediaQuery.of(context).size.width * 0.72 * .02,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        'Seduction Of Yusuf',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                            color: Colors.white,
+                            height: 1.2),
+                      ),
+                      Text(
+                        'Bihzad',
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.white, //height: 1.8
+                        ),
+                      ),
+                      prefix0.Spacer(
+                        ratio: .01,
+                        type: 'V',
+                      ),
+                      Center(
+                        child: Container(
+                          height: MediaQuery.of(context).size.height * 0.005,
+                          width: MediaQuery.of(context).size.width * 0.72 * .6,
+                          color: Colors.white,
+                        ),
+                      ),
+                      prefix0.Spacer(
+                        ratio: .01,
+                        type: 'V',
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Center(
+                            child: Text(
+                              '1484-1486',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                  fontSize: 12),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 8.0),
+                            child: Container(
+                              height: MediaQuery.of(context).size.height * .02,
+                              width: MediaQuery.of(context).size.width * .15,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  color: Colors.blueAccent),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                  Text(
-                    'Sandro Boticelli',
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.white, //height: 1.8
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 20),
-                    child: Container(height: MediaQuery.of(context).size.height*0.005,
-                    width: MediaQuery.of(context).size.width*0.95,
-                    color: Colors.white,),
-                  ),
-
-                  Padding(
-                    padding: const EdgeInsets.only(top:15.0),
-                    child: Row(
-                      children: <Widget>[
-                        Text('1484-1486',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white,fontSize: 14),)
-                      ],
-                    ),
-                  ),
-
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
-        ),
-
     );
+  }
+
+  Future<Color> _generatePalette(context, String link) async {
+    PaletteGenerator _paletteGenerator =
+        await PaletteGenerator.fromImageProvider(NetworkImage(link),
+            maximumColorCount: 20);
+
+    return _paletteGenerator.darkMutedColor.color.withOpacity(1);
   }
 }
