@@ -1,78 +1,280 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-MERGED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:shared_preferences] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:local_auth] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\local_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:google_maps_flutter] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\google_maps_flutter\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-10:12
+MERGED from [:path_provider] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_statusbarcolor] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\flutter_statusbarcolor\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha06.aar\0f169d78f5c07fd2c735b2a1eee167da\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\4c60bdcf12039daced2ba27850c31688\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\800bc3080da0aa30f4191e9df12933e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha06.aar\7a57fa125999c838b180c1d8692a18aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\0661ebddc345dd8de95ab910c2f22267\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\f5efc13dd123e831ca2f28ffbbf8ac3b\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2f02ff01761056c61318324932774235\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha04.aar\90a7d042351205a91bfe9fcf7202ce56\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\94082175173b3328147f6cfe96c79c37\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\a4628f627d08d28ae7b6b6c97b6c3e59\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\e027d21734a8db37b83e733687b54041\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha04.aar\f38b7c782821c9ede15450175fbd02c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\9a64c4bcadca0241042d88c01d520c31\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:2:5-32
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:1-33:12
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:9:5-32:19
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:9:5-34:19
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:22:5-89
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:30:5-36:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\f5efc13dd123e831ca2f28ffbbf8ac3b\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\f5efc13dd123e831ca2f28ffbbf8ac3b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\9a64c4bcadca0241042d88c01d520c31\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\9a64c4bcadca0241042d88c01d520c31\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:24:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:11:9-30
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:11:9-30
 	android:icon
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:12:9-43
 	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:10:9-57
-activity#com.example.gawla.MainActivity
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:13:9-31:20
-	android:launchMode
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:15:13-43
-	android:hardwareAccelerated
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:18:13-47
-	android:windowSoftInputMode
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:19:13-55
-	android:configChanges
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:17:13-144
-	android:theme
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:16:13-47
-	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:14:13-41
-meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:24:13-26:40
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:10:9-57
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:13:9-14:73
 	android:value
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:26:17-37
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:14:16-71
 	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:25:17-82
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:13:20-65
+activity#com.example.gawla.MainActivity
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:15:9-33:20
+	android:launchMode
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:17:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:20:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:21:13-55
+	android:configChanges
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:19:13-144
+	android:theme
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:name
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:16:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:26:13-28:40
+	android:value
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:28:17-37
+	android:name
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:27:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:27:13-30:29
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:29:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:28:17-68
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:30:17-68
 	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:29:17-76
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:31:17-76
 	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\sqflite\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:local_auth] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\local_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:local_auth] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\local_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\google_maps_flutter\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\google_maps_flutter\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\path_provider\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_statusbarcolor] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\flutter_statusbarcolor\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_statusbarcolor] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\flutter_statusbarcolor\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha06.aar\0f169d78f5c07fd2c735b2a1eee167da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha06.aar\0f169d78f5c07fd2c735b2a1eee167da\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\4c60bdcf12039daced2ba27850c31688\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\4c60bdcf12039daced2ba27850c31688\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\800bc3080da0aa30f4191e9df12933e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\800bc3080da0aa30f4191e9df12933e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha06.aar\7a57fa125999c838b180c1d8692a18aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha06.aar\7a57fa125999c838b180c1d8692a18aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\0661ebddc345dd8de95ab910c2f22267\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\0661ebddc345dd8de95ab910c2f22267\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\d5e0169b0fb6dc51ad456fecfb9aa73f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\f5efc13dd123e831ca2f28ffbbf8ac3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\f5efc13dd123e831ca2f28ffbbf8ac3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2f02ff01761056c61318324932774235\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\2f02ff01761056c61318324932774235\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha04.aar\90a7d042351205a91bfe9fcf7202ce56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha04.aar\90a7d042351205a91bfe9fcf7202ce56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\94082175173b3328147f6cfe96c79c37\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\94082175173b3328147f6cfe96c79c37\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\a4628f627d08d28ae7b6b6c97b6c3e59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\a4628f627d08d28ae7b6b6c97b6c3e59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\e027d21734a8db37b83e733687b54041\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\e027d21734a8db37b83e733687b54041\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha04.aar\f38b7c782821c9ede15450175fbd02c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha04.aar\f38b7c782821c9ede15450175fbd02c7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\9a64c4bcadca0241042d88c01d520c31\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\9a64c4bcadca0241042d88c01d520c31\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Dr. Dalia\Desktop\Gawla2\gawla\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [:camera] C:\Users\Almoatasem Bellah\Documents\GitHub\Gawlah-Tour-Guide\build\camera\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:22:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.0-alpha04] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\biometric-1.0.0-alpha04.aar\a04b5fb6d9a98aa76294aed586da56c6\AndroidManifest.xml:23:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\49ddedad1db71b30e28e52b54246b527\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a5a06de4404e8fb423b4f107639c1593\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\62531fcd8bba0e854db3388db5e6dc26\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\8999a82882a66773a330191e074c8613\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\83fac5c6e30b6a3f5f62376943e529bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\037a3886688f2ba1cf8ac629aeae40db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\dab3c990873d21904fff586806e84358\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0ba58d7d69859af2683c433ea9410b95\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4d09447fd48bb8ac624bcc384a44d177\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Almoatasem Bellah\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d56ac14cd32ec90b6fd2143b041993e7\AndroidManifest.xml:26:13-58

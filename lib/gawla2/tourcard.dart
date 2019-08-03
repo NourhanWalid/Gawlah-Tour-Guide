@@ -3,7 +3,8 @@ import 'package:gawla/gawla2/tourview.dart';
 
 
 class TourCard extends StatelessWidget {
-  const TourCard({Key key}) : super(key: key);
+  final String tag;
+  const TourCard({Key key, this.tag}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +12,9 @@ class TourCard extends StatelessWidget {
       onTap: (){
 
         Navigator.push(context, MaterialPageRoute(
-          builder: (context)=>Scaffold(body: TourView()),
+          builder: (context)=>Scaffold(body: TourView(
+            tag: tag,
+          )),
 
 
 
@@ -26,7 +29,7 @@ class TourCard extends StatelessWidget {
                 height: MediaQuery.of(context).size.width*0.72,
                 width: MediaQuery.of(context).size.width*0.7,
                 child: Hero(
-                  tag: 'tour',
+                  tag: tag,
                         child: Image.network(
                     'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
                     fit: BoxFit.fill,
