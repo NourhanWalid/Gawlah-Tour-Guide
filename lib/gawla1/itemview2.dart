@@ -3,12 +3,12 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-class HomePage extends StatefulWidget {
+class ItemView2 extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  ItemView2State createState() => ItemView2State();
 }
 
-class _HomePageState extends State<HomePage> {
+class ItemView2State extends State<ItemView2> {
   final double _initFabHeight = 120.0;
   double _fabHeight;
   double _panelHeightOpen = 575.0;
