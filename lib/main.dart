@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gawla/gawla1/Cards/itemcard.dart';
-import 'package:gawla/gawla2/palette.dart';
-import 'package:gawla/gawla2/splitter.dart';
+import 'package:gawla/gawla1/itemview2.dart';
 import 'package:gawla/gawla2/test.dart';
-import 'package:gawla/gawla2/tourview.dart';
 
-import 'App Slider Intro.dart';
-import 'gawla1/itemview.dart';
-import 'gawla1/itemview2.dart';
-import 'gawla2/tourcard.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -31,6 +26,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: ItemCard(size: 'small',)));
+    return Scaffold(body: Center(child: ItemView2()));
   }
 }
