@@ -112,18 +112,6 @@ class ItemCard extends StatelessWidget {
                         fit: BoxFit.fill,
                       ),
                     )),
-                ClipRect(
-                  child: new BackdropFilter(
-                    filter: new ImageFilter.blur(sigmaX: .7, sigmaY: .7),
-                    child: new Container(
-                      width: MediaQuery.of(context).size.width * 0.5,
-                      height: MediaQuery.of(context).size.width * 0.6,
-                      decoration: new BoxDecoration(
-                          color: Colors.grey.shade200.withOpacity(0.1),
-                          borderRadius: BorderRadius.all(Radius.circular(40))),
-                    ),
-                  ),
-                ),
                 Positioned(
                   left: MediaQuery.of(context).size.width * 0.72 * .05,
                   bottom: MediaQuery.of(context).size.width * 0.72 * .02,

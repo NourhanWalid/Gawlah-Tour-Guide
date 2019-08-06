@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gawla/gawla1/Cards/itemcard.dart';
 import 'Example.dart';
 import 'package:parallax_image/parallax_image.dart';
 import 'package:share/share.dart';
@@ -17,7 +18,6 @@ class ArtistProfileState extends State<ArtistProfile> {
 
   final String image;
   final String tag;
-  final _controller = new ScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -75,81 +75,17 @@ class ArtistProfileState extends State<ArtistProfile> {
             child: Container(
               width: MediaQuery.of(context).size.width,
               height: 250,
-              child: ListView(
+              child: PageView(
                 physics: BouncingScrollPhysics(),
-                controller: _controller,
                 scrollDirection: Axis.horizontal,
+                controller: PageController(keepPage: true,viewportFraction:0.6),
+                pageSnapping: false,
                 children: <Widget>[
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg/800px-Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 150,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg/1024px-Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg/1024px-Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Vincent_van_Gogh_-_Worn_Out_%28F997%29.jpg/800px-Vincent_van_Gogh_-_Worn_Out_%28F997%29.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg/800px-Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
-                  Container(
-                    width: 250,
-                    height: 100,
-                    child: new ParallaxImage(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vincent_van_Gogh_-_Head_of_a_skeleton_with_a_burning_cigarette_-_Google_Art_Project.jpg/800px-Vincent_van_Gogh_-_Head_of_a_skeleton_with_a_burning_cigarette_-_Google_Art_Project.jpg'),
-                      extent: 100.0,
-                      controller: _controller,
-                    ),
-                  ),
+                 ItemCard(size: 'small',),
+                 ItemCard(size: 'small',),
+                 ItemCard(size: 'small',),
+                 ItemCard(size: 'small',),
+                 ItemCard(size: 'small',),
                 ],
               ),
             ),

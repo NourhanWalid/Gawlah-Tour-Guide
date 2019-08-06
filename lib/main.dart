@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gawla/Mohamed/Artist%20Profile.dart';
 import 'package:gawla/gawla1/Cards/itemcard.dart';
 import 'package:gawla/gawla2/palette.dart';
 import 'package:gawla/gawla2/splitter.dart';
@@ -31,6 +32,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: ItemCard(size: 'small',)));
+    return Scaffold(body: Center(child: ArtistProfile(tag: 'hey',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/810px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg',)));
   }
 }
