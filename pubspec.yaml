@@ -54,6 +54,9 @@ dependencies:
    
   palette_generator: ^0.2.0
 
+  share: ^0.6.2+1
+  parallax_image: ^0.3.1+1
+
 
 
   flutter:

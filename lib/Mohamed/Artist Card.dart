@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gawlah_tourists_app/Profiles/Artist Profile.dart';
+import 'Artist Profile.dart';
 
 class ArtistCard extends StatelessWidget {
   final String name;

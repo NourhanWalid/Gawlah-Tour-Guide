@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gawlah_tourists_app/Mohamad/Example.dart';
+import 'Example.dart';
 import 'package:parallax_image/parallax_image.dart';
 import 'package:share/share.dart';
 

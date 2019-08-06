@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gawlah_tourists_app/Mohamad/Artist2.dart';
-import 'package:gawlah_tourists_app/Cards/Artist Card.dart';
+import 'Artist2.dart';
+import 'Artist Card.dart';
 class Example extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
