@@ -287,7 +287,7 @@ fillColor: Colors.transparent
 
   GoogleMapController mapController;
 
-  final LatLng _center = const LatLng(30.6, 2.2);
+  final LatLng _center = const LatLng(0, 0);
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
@@ -307,7 +307,7 @@ fillColor: Colors.transparent
           onMapCreated: _onMapCreated,
           initialCameraPosition: CameraPosition(
             target: _center,
-            zoom: 11.0,
+            zoom: 3.0,
           ),
         ),
       ),

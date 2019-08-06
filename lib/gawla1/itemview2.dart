@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gawla/Basic%20Map.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -230,21 +231,6 @@ class ItemView2State extends State<ItemView2> {
   }
 
   Widget _body() {
-    GoogleMapController mapController;
-
-    final LatLng _center = const LatLng(30.6, 2.2);
-
-    void _onMapCreated(GoogleMapController controller) {
-      mapController = controller;
-    }
-
-    return GoogleMap(
-      mapType: MapType.satellite,
-      onMapCreated: _onMapCreated,
-      initialCameraPosition: CameraPosition(
-        target: _center,
-        zoom: 11.0,
-      ),
-    );
+   return BasicMap();
   }
 }

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/xcode/Documents/GitHub/Gawlah-Tour-Guide/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+            "map": [
+                {
+                    "source": "/Users/xcode/.gradle/caches/transforms-1/files-1.1/biometric-1.0.0-alpha04.aar/838ab8bbc98eef17d6f06215142756cc/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,182,276,393,532,679,809,953",
+                        "endColumns": "126,93,116,138,146,129,143,100",
+                        "endOffsets": "177,271,388,527,674,804,948,1049"
+                    }
+                },
+                {
+                    "source": "/Users/xcode/.gradle/caches/transforms-1/files-1.1/core-1.1.0-beta01.aar/6c1a1692efe77439ba61521ba716ce15/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1054",
+                        "endColumns": "100",
+                        "endOffsets": "1150"
+                    }
+                }
+            ]
+        }
+    ]
+}
