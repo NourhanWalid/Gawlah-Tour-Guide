@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gawla/gawla1/Cards/itemcard.dart';
 import 'Example.dart';
-import 'package:parallax_image/parallax_image.dart';
 import 'package:share/share.dart';
+import 'package:like_button/like_button.dart';
 
 class ArtistProfile extends StatefulWidget {
   ArtistProfile({Key key, this.image, this.tag}) : super(key: key);
