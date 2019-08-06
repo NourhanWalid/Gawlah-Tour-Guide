@@ -114,6 +114,11 @@ class ArtistProfileState extends State<ArtistProfile> {
               },
             ),
           ),
+            Positioned(
+            top: MediaQuery.of(context).size.height*0.038,
+            right: MediaQuery.of(context).size.width*0.043,
+            child: LikeButton()
+          ),
         ],
       ),
     );

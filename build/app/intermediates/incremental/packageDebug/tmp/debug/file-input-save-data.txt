@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 06 13:27:51 EET 2019
+#Tue Aug 06 13:58:26 EET 2019
 20.base=C\:\\Users\\User\\Documents\\GitHub\\Gawlah-Tour-Guide\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 143.base=C\:\\Users\\User\\Documents\\GitHub\\Gawlah-Tour-Guide\\build\\app\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 237.path=flutter_assets/packages/country_pickers/assets/tw.png
