@@ -78,7 +78,7 @@ class ArtistProfileState extends State<ArtistProfile> {
               child: PageView(
                 physics: BouncingScrollPhysics(),
                 scrollDirection: Axis.horizontal,
-                controller: PageController(keepPage: true,viewportFraction:0.6),
+                controller: PageController(keepPage: true,viewportFraction:0.5712),
                 pageSnapping: false,
                 children: <Widget>[
                  ItemCard(size: 'small',),
