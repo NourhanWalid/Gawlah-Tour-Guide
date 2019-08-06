@@ -12,7 +12,9 @@ import 'Cards/card5.dart';
 
 
 class ItemView extends StatelessWidget {
-  const ItemView({Key key}) : super(key: key);
+  final String tag;
+  final String image;
+  const ItemView({Key key, this.tag, this.image}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,9 +25,12 @@ class ItemView extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
 
-            child: Image.network(
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/402px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg',
-              fit: BoxFit.fitHeight,
+            child: Hero(
+              tag: tag,
+                          child: Image.network(
+                image,
+                fit: BoxFit.fitHeight,
+              ),
             ),
           ),
 
