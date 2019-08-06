@@ -10,7 +10,6 @@ import 'Cards/card3.dart';
 import 'Cards/card4.dart';
 import 'Cards/card5.dart';
 
-
 class ItemView extends StatelessWidget {
   final String tag;
   final String image;
@@ -18,45 +17,42 @@ class ItemView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       body: Stack(
         children: <Widget>[
           Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
-
             child: Hero(
               tag: tag,
-                          child: Image.network(
+              child: Image.network(
                 image,
                 fit: BoxFit.fitHeight,
               ),
             ),
           ),
+          SliverFab(
+            floatingWidget: Container(
+              //padding: EdgeInsets.only(left: 50),
 
-           SliverFab(
-              floatingWidget: Container(
-                                    //padding: EdgeInsets.only(left: 50),
+              height: 90,
 
-                                    height: 90,
+              width: 90,
 
-                                    width: 90,
-
-                                    decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        image: DecorationImage(
-                                          fit: BoxFit.fill,
-                                          image: NetworkImage(
-                                              'https://www.biografiasyvidas.com/biografia/l/fotos/leonardo_da_vinci.jpg'),
-                                        )),
-                                  ),
-          floatingPosition: FloatingPosition(right: 16),
-          expandedHeight: MediaQuery.of(context).size.height*0.85,
-
+              decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  image: DecorationImage(
+                    fit: BoxFit.fill,
+                    image: NetworkImage(
+                        'https://www.biografiasyvidas.com/biografia/l/fotos/leonardo_da_vinci.jpg'),
+                  )),
+            ),
+            floatingPosition: FloatingPosition(right: 16),
+            expandedHeight: MediaQuery.of(context).size.height * 0.85,
             slivers: <Widget>[
               SliverAppBar(
                 backgroundColor: Colors.transparent,
-                expandedHeight: MediaQuery.of(context).size.height*0.85,
+                expandedHeight: MediaQuery.of(context).size.height * 0.85,
                 pinned: true,
                 floating: true,
                 flexibleSpace: FlexibleSpaceBar(
@@ -65,18 +61,23 @@ class ItemView extends StatelessWidget {
                   ), //Image.asset('assets/forest.jpg', fit: BoxFit.cover),
                 ),
               ),
-
               SliverList(
                 delegate: SliverChildListDelegate(
                   [
                     SingleChildScrollView(
                       child: Card(
                         shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(topRight: Radius.circular(30.0), topLeft: Radius.circular(30.0)),
-            ),
-                         child: Container(
-                           decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.only(topRight: Radius.circular(30.0), topLeft: Radius.circular(30.0)), ),
-                        
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30.0),
+                              topLeft: Radius.circular(30.0)),
+                        ),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.only(
+                                topRight: Radius.circular(30.0),
+                                topLeft: Radius.circular(30.0)),
+                          ),
                           width: MediaQuery.of(context).size.width * 0.9,
                           child: Stack(
                             children: [
@@ -116,11 +117,14 @@ class ItemView extends StatelessWidget {
                                       bgcolor: Colors.white70,
                                     ),
                                     VSpacer(0.015),
-                                    RatingCard(rating:2.5,bgcolor: Colors.white70,),
-                                    
+                                    RatingCard(
+                                      rating: 2.5,
+                                      bgcolor: Colors.white70,
+                                    ),
                                     VSpacer(0.015),
-
-                                    SimilarItems(key: key,),
+                                    SimilarItems(
+                                      key: key,
+                                    ),
                                   ],
                                 ),
                               ),
@@ -131,7 +135,6 @@ class ItemView extends StatelessWidget {
                                   onTap: () {
                                     print('CLICKED');
                                   },
-                                  
                                 ),
                               ),
                             ],
@@ -147,6 +150,5 @@ class ItemView extends StatelessWidget {
         ],
       ),
     );
-    
   }
 }

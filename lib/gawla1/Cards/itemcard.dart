@@ -8,16 +8,18 @@ import '../itemview.dart';
 
 class ItemCard extends StatelessWidget {
   final String size;
-  const ItemCard({Key key, this.size}) : super(key: key);
+  final String tag;
+  final String image;
+  const ItemCard({Key key, this.size, this.tag, this.image}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        //Navigator.push(context, MaterialPageRoute(
-        //builder: (context)=>Scaffold(body: ItemView()),
+        Navigator.push(context, MaterialPageRoute(
+        builder: (context)=>Scaffold(body: ItemView(tag: tag, image: image,)),
 
-        //));
+        ));
       },
       child: this.size == 'big'
           ? Stack(
@@ -105,10 +107,10 @@ class ItemCard extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(40))),
                     child: Hero(
-                      tag: 'tour',
+                      tag: tag,
                       //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
                       child: Image.network(
-                        'https://uploads2.wikiart.org/images/kamal-ud-din-behzad/yusef-and-zuleykha-detail-1488.jpg',
+                        image,
                         fit: BoxFit.fill,
                       ),
                     )),
