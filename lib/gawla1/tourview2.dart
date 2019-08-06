@@ -39,24 +39,24 @@ class TourView2State extends State<TourView2>
         backdropEnabled: true,
         backdropOpacity: 0.8,
         panel: StaggeredGridView.countBuilder(
-  crossAxisCount: 4,
-  itemCount: 8,
-  itemBuilder: (BuildContext context, int index) => new Container(
-      color: Colors.green,
-      child: new Center(
-        child: new CircleAvatar(
-          backgroundColor: Colors.white,
-          child: new Text('$index'),
+          crossAxisCount: 4,
+          itemCount: 8,
+          itemBuilder: (BuildContext context, int index) => new Container(
+              color: Colors.green,
+              child: new Center(
+                child: new CircleAvatar(
+                  backgroundColor: Colors.white,
+                  child: new Text('$index'),
+                ),
+              )),
+          staggeredTileBuilder: (int index) =>
+              new StaggeredTile.count(2, index.isEven ? 2 : 1),
+          mainAxisSpacing: 4.0,
+          crossAxisSpacing: 4.0,
         ),
-      )),
-  staggeredTileBuilder: (int index) =>
-      new StaggeredTile.count(2, index.isEven ? 2 : 1),
-  mainAxisSpacing: 4.0,
-  crossAxisSpacing: 4.0,
-)
         collapsed: Container(
           decoration: BoxDecoration(
-              color: Colors.blueGrey.withOpacity(0), borderRadius: radius),
+              color: Colors.blueGrey.withOpacity(1), borderRadius: radius),
           child: Center(
             child: Text(
               "See more",
