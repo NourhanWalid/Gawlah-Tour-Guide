@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gawlah_tourists_app/Profiles/Artist%20Profile.dart';
 
 class ArtistCard extends StatelessWidget {
   final String name;
@@ -12,8 +11,6 @@ class ArtistCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => ArtistProfile()));
       },
       child: Hero(
         tag: 'hey',

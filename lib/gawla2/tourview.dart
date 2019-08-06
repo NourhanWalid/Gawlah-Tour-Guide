@@ -1,10 +1,10 @@
 import 'dart:ui';
 
-import 'package:flutter/gestures.dart';
+//import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:gawla/gawla1/Cards/itemcard.dart';
+//import 'package:gawla/gawla1/Cards/itemcard.dart';
 import 'package:gawla/gawla1/horizontalspacer.dart';
 import 'package:gawla/gawla1/verticalspacer.dart';
 
@@ -60,7 +60,7 @@ class TourView extends StatelessWidget {
                           fillColor: Colors.amber,
                           itemSize: 20,
                           borderColor: Colors.blue,
-                          allowHalfRating: true,
+                          allowHalfRating: true, onRatingUpdate: (double rating) {},
                           
                         ),
                       ),
@@ -138,7 +138,7 @@ class TourView extends StatelessWidget {
                           Wrap(
                             children: <Widget>[
                               Text(
-                                'Islamic art encompasses the vijsjkadljklsadjkldsajkldaskjldsakjldaskjldsalkdskljdaslkjdsakljkdjalsjklsadkjalkjsddslakjkldsajkljdaskjldsakljdaskljadsjladksjdsakjadskjldasjklsadjkldaskjladsjlkkljdasjkladsldjkasdakljsdajlksdajlksjkldaslkjadklsisual arts produced in the Islamic world.[1] Islamic art is difficult to characterize because it covers a wide range of lands, periods, and genres,including Islamic architecture, Islamic calligraphy, Islamic miniature, Islamic glass, Islamic pottery, and textile arts such as carpets and embroidery.It comprises both religious and secular art forms. Religious art is represented by calligraphy, architecture and furnishings of religious buildings, such as mosque fittings (e.g., mosque lamps and Girih tiles), woodwork and carpets. Secular art also flourished in the Islamic world, although some of its elements were criticized by religious scholars.Early development of Islamic art was influenced by Roman art, Early Christian art (particularly Byzantine art), and Sassanian art, with later influences from Central Asian nomadic traditions. Chinese art had a formative influence on Islamic painting, pottery, and textiles.Though the concept of "Islamic art" has been criticised by some modern art historians as an illusory Eurocentric construct,the similarities between art produced at widely different times and places in the Islamic world, especially in the Islamic Golden Age, have been sufficient to keep the term in wide use by scholars.',
+                                'Islamic art encompasses the  hhhhh  hhh hhh hhh h hh hhh h h h hh hh hhhhhh h hhh h hh  hh  hh h h h hh  hh h h harts produced in the Is.',
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 18,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gawla/gawla1/Cards/itemcard.dart';
-import 'package:gawla/gawla1/itemview2.dart';
-import 'package:gawla/gawla2/test.dart';
+import 'package:gawla/gawla1/tourview2.dart';
+
+
 
 
 
@@ -26,6 +26,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: ItemView2()));
+    return  TourView2();
   }
 }
