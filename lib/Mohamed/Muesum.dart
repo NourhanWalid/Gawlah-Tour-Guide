@@ -2,13 +2,13 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gawla/Mohamed/Example.dart';
 import 'package:gawla/Objects/Site.dart';
 import 'package:gawla/Objects/Tour%20Item.dart';
 import 'package:gawla/gawla1/Cards/itemcard.dart';
 
 class MuseumState extends State<MuseumView> {
-  Stream Muesums;
-  Stream Items;
+
 
   final PageController controllerr =
       PageController(viewportFraction: .9, keepPage: true);
@@ -154,9 +154,9 @@ class MuseumState extends State<MuseumView> {
           top: MediaQuery.of(context).size.height * .05,
           child: IconButton(
             onPressed: () {
-              Navigator.pop(context);
+              Navigator.push(context,MaterialPageRoute(builder: (context)=>Example()));
             },
-            icon: Icon(Icons.arrow_back),
+            icon: Icon(Icons.arrow_back_ios,color: Colors.black,),
             iconSize: 40,
             color: Colors.white,
           ),

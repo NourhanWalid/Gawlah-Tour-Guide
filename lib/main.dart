@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gawla/Mohamed/Artist%20Profile.dart';
+import 'package:gawla/Mohamed/Example.dart';
 import 'package:gawla/Mohamed/Muesum.dart';
 import 'package:gawla/Objects/Site.dart';
 import 'package:gawla/Objects/Tour%20Item.dart';
@@ -32,26 +33,8 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  Site museum = new Site(
-      name: 'Egyptian Museum',
-      image:
-          'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
-      info: '.....',
-      type: 'Museum',
-      items: [
-        new TourItem(
-            info: '.........',
-            name: 'abo galmbo',
-            image:
-                'https://mpng.pngfly.com/20181118/yjp/kisspng-logos-ancient-egypt-egyptian-language-egyptian-mus-logo-museu-egipcio-by-pearllite-on-deviantart-5bf18a50adb709.1176919915425562407116.jpg',
-            counrty: 'Mother Russia',
-            id: 121999,
-            period: '......',
-            location: LatLng(17, 76),
-                )
-      ]);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: MuseumView()));
+    return Scaffold(body: Center(child:Example()));
   }
 }
