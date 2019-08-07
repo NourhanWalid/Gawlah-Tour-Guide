@@ -1,32 +1,19 @@
 import 'dart:ui';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gawlah/Database/MuesumSnapShot.dart';
-import 'package:flutter_gawlah/Tour_Items_Page_View/Tour_item_card.dart';
-import 'package:flutter_gawlah/map_widgets/map2.dart';
-import 'package:flutter_gawlah/Muesum/ticket.dart';
-import 'package:smooth_star_rating/smooth_star_rating.dart';
 
 class MuseumState extends State<MuseumView> {
-  final Firestore database = Firestore.instance;
   Stream Muesums;
-
   Stream Items;
 
   final PageController controllerr =
   PageController(viewportFraction: .9, keepPage: true);
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: StreamBuilder(
-          stream: Muesums,
-          builder: (context, AsyncSnapshot snapshot) {
-            List MuesumList = snapshot.data.toList();
-
-            return Container(
+      body: Container(
                 child: Stack(
               fit: StackFit.expand,
               children: <Widget>[
@@ -186,20 +173,16 @@ class MuseumState extends State<MuseumView> {
                             height: 300,
                             width: MediaQuery.of(context).size.width,
 
-                            child: StreamBuilder(
-                                stream: Items,
-                                builder: (context, AsyncSnapshot snapshot) {
-                                  List slideList = snapshot.data.toList();
-                                  return PageView.builder(
+                            child: PageView.builder(
                                     physics: BouncingScrollPhysics(),
                                     controller: controllerr,
                                     itemCount: slideList.length ,
                                     itemBuilder: (context, int currentIndex) {
                                       return TourItemCard(slideList[currentIndex]);
                                     },
-                                  );
-                                }),
-                          ),
+                                  )
+                                ),
+                          
 
 
 
@@ -222,25 +205,13 @@ class MuseumState extends State<MuseumView> {
                   ),
                 ),
               ],
-            ));
-          }),
-    );
+            ))
+          );
+    
   }
 
   void initState() {
-    Query query = database.collection('museums');
-    Muesums = query
-        .where("name", isEqualTo: widget.Museum)
-        .snapshots()
-        .map((list) => list.documents.map((doc) => doc.data));
-    super.initState();
-
-
-    Query query1 = database.collection('polylines');
-    Items = query1
-        .where("place", isEqualTo: widget.Museum).where('type', isEqualTo: 'item')
-        .snapshots()
-        .map((list) => list.documents.map((doc) => doc.data));
+   
 
 
 
@@ -293,7 +264,9 @@ class MuseumState extends State<MuseumView> {
 }
 
 class MuseumView extends StatefulWidget {
-  final String Museum;
+  final Map Museum;
+  final List <
+
   const MuseumView({Key key, this.Museum}) : super(key: key);
 
   MuseumState createState() => MuseumState();
