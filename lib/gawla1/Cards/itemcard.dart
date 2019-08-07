@@ -2,22 +2,22 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as prefix1;
+import 'package:gawla/Objects/Tour%20Item.dart';
 import 'package:gawla/spacer.dart' as prefix0;
 import 'package:palette_generator/palette_generator.dart';
 import '../itemview.dart';
 
 class ItemCard extends StatelessWidget {
   final String size;
-  final String tag;
-  final String image;
-  const ItemCard({Key key, this.size, this.tag, this.image}) : super(key: key);
+  final TourItem item;
+  const ItemCard({Key key, this.size, this.item}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         Navigator.push(context, MaterialPageRoute(
-        builder: (context)=>Scaffold(body: ItemView(tag: tag, image: image,)),
+        builder: (context)=>Scaffold(body: ItemView(tag: item.image, image: item.image,)),
 
         ));
       },
@@ -107,10 +107,10 @@ class ItemCard extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(40))),
                     child: Hero(
-                      tag: tag,
+                      tag: item.image,
                       //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
                       child: Image.network(
-                        image,
+                        item.image,
                         fit: BoxFit.fill,
                       ),
                     )),

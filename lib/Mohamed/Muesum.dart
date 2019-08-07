@@ -2,220 +2,170 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:gawla/Objects/Site.dart';
+import 'package:gawla/Objects/Tour%20Item.dart';
+import 'package:gawla/gawla1/Cards/itemcard.dart';
 
 class MuseumState extends State<MuseumView> {
   Stream Muesums;
   Stream Items;
 
   final PageController controllerr =
-  PageController(viewportFraction: .9, keepPage: true);
+      PageController(viewportFraction: .9, keepPage: true);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-                child: Stack(
-              fit: StackFit.expand,
-              children: <Widget>[
-                _buildbackground(),
-                Container(
-                  height: MediaQuery.of(context).size.height,
-                  width: MediaQuery.of(context).size.width,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 32.0),
-                    child: SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          SizedBox(
-                            height: MediaQuery.of(context).size.height * .15,
-                          ),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-
-                              Card(
-                                shape: RoundedRectangleBorder(
-                                    borderRadius:
-                                        BorderRadius.all(Radius.circular(20))),
-                                elevation: 10,
-                                child: Container(
-                                    decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.all(Radius.circular(20))),
-                                    height: 200,
-                                    width: 200,
-                                    child: Image.network(MuesumList[0]['image'])),
-                              ),
-                            ],
-                          ),
-                          SizedBox(
-                              height:
-                                  MediaQuery.of(context).size.height * .025),
-                          Container(
-                            width: MediaQuery.of(context).size.width * .5,
-                            child: Text(
-                              MuesumList[0]['name'],
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                letterSpacing: 1.1,
-                                fontSize: 22.0,
-                                color: Colors.black,
-                              ),
-                            ),
-                            color: Colors.transparent,
-                          ),
-                          SizedBox(
-                            height: MediaQuery.of(context).size.height * .025,
-                          ),
-                          Container(
-                              child: Container(
-                            height: MediaQuery.of(context).size.height * .13,
-                            child: Text(
-                              MuesumList[0]['description'],
-                              style:
-                                  TextStyle(color: Colors.black, height: 1.4,fontWeight: FontWeight.bold
-
-
-                                  )
-                              ,
-                            ),
-                          )),
-                          SizedBox(
-                              height:
-                                  MediaQuery.of(context).size.height * .025),
-                          Text('Openning Hours : ',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold, fontSize: 18)),
-                          SizedBox(
-                            height: MediaQuery.of(context).size.height * .01,
-                          ),
-                          Text(
-                            'From : ' +
-                                MuesumList[0]['Hours']['Monday'][0] +
-                                ' TO ' +
-                                MuesumList[0]['Hours']['Monday'][1] +
-                                ' Today',
-                            style: TextStyle(
-                              fontSize: 15,
-                              color: Colors.black54
-                            ),
-                          ),
-                          SizedBox(
-                              height:
-                                  MediaQuery.of(context).size.height * .025),
-                          Sepertor(1),
-                          SizedBox(
-                              height:
-                                  MediaQuery.of(context).size.height * .025),
-                          Text(
-                            'Tickets : ',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 18),
-                          ),
-                          SizedBox(
-                            height: MediaQuery.of(context).size.height * .005,
-                          ),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                'Children : ' +
-                                    MuesumList[0]['Tickets']['Children'],
-                                style: TextStyle(
-                                  fontSize: 15,
-                                    color: Colors.black54
-
-                                ),
-                              ),
-                              SizedBox(
-                                height:
-                                    MediaQuery.of(context).size.height * 0.01,
-                              ),
-                              Text(
-                                'Adults : ' +
-                                    MuesumList[0]['Tickets']['Adults'],
-                                style: TextStyle(
-                                  fontSize: 15,
-                                    color: Colors.black54
-
-                                ),
-                              ),
-                              SizedBox(
-                                height:
-                                    MediaQuery.of(context).size.height * 0.01,
-                              ),
-                              Text(
-                                'Photography : ' +
-                                    MuesumList[0]['Tickets']['Photography'],
-                                style: TextStyle(
-                                  fontSize: 15,
-                                    color: Colors.black54
-
-                                ),
-                              )
-                            ],
-                          ),
-                          SizedBox(
-                              height: MediaQuery.of(context).size.height * .02),
-                          Sepertor(1),
-
-                          SizedBox( height: MediaQuery.of(context).size.height * .02),
-                          Text(
-                            'From The Collection : ',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 18),
-                          ),
-                          SizedBox( height: MediaQuery.of(context).size.height * .02),
-
-                          Container(
-                            height: 300,
-                            width: MediaQuery.of(context).size.width,
-
-                            child: PageView.builder(
-                                    physics: BouncingScrollPhysics(),
-                                    controller: controllerr,
-                                    itemCount: slideList.length ,
-                                    itemBuilder: (context, int currentIndex) {
-                                      return TourItemCard(slideList[currentIndex]);
-                                    },
-                                  )
-                                ),
-                          
-
-
-
-
-                        ],
+        body: Container(
+            child: Stack(
+      fit: StackFit.expand,
+      children: <Widget>[
+        _buildbackground(),
+        Container(
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 32.0),
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * .15,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Card(
+                          shape: RoundedRectangleBorder(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(20))),
+                          elevation: 10,
+                          child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(20))),
+                              height: 200,
+                              width: 200,
+                              child: Image.network(widget.Museum.image))),
+                    ],
+                  ),
+                  SizedBox(height: MediaQuery.of(context).size.height * .025),
+                  Container(
+                    width: MediaQuery.of(context).size.width * .5,
+                    child: Text(
+                      widget.Museum.name,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.1,
+                        fontSize: 22.0,
+                        color: Colors.black,
                       ),
                     ),
+                    color: Colors.transparent,
                   ),
-                ),
-                Positioned(
-                  left: MediaQuery.of(context).size.width * .04,
-                  top: MediaQuery.of(context).size.height * .05,
-                  child: IconButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    icon: Icon(Icons.arrow_back),
-                    iconSize: 40,
-                    color: Colors.white,
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * .025,
                   ),
-                ),
-              ],
-            ))
-          );
-    
+                  Container(
+                      child: Container(
+                    height: MediaQuery.of(context).size.height * .13,
+                    child: Text(
+                      widget.Museum.info,
+                      style: TextStyle(
+                          color: Colors.black,
+                          height: 1.4,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  )),
+                  SizedBox(height: MediaQuery.of(context).size.height * .025),
+                  Text('Openning Hours : ',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * .01,
+                  ),
+                  Text(
+                    'From : 10 To 15 Today',
+                    style: TextStyle(fontSize: 15, color: Colors.black54),
+                  ),
+                  SizedBox(height: MediaQuery.of(context).size.height * .025),
+                  Sepertor(1),
+                  SizedBox(height: MediaQuery.of(context).size.height * .025),
+                  Text(
+                    'Tickets : ',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * .005,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(
+                        'Children : ' + '10 LE',
+                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                      ),
+                      SizedBox(
+                        height: MediaQuery.of(context).size.height * 0.01,
+                      ),
+                      Text(
+                        'Children : ' + '10 LE',
+                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                      ),
+                      SizedBox(
+                        height: MediaQuery.of(context).size.height * 0.01,
+                      ),
+                      Text(
+                        'Children : ' + '10 LE',
+                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                      )
+                    ],
+                  ),
+                  SizedBox(height: MediaQuery.of(context).size.height * .02),
+                  Sepertor(1),
+                  SizedBox(height: MediaQuery.of(context).size.height * .02),
+                  Text(
+                    'From The Collection : ',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
+                  SizedBox(height: MediaQuery.of(context).size.height * .02),
+                  Container(
+                      height: 300,
+                      width: MediaQuery.of(context).size.width,
+                      child: PageView.builder(
+                        physics: BouncingScrollPhysics(),
+                        controller: controllerr,
+                        itemCount: widget.items.length,
+                        itemBuilder: (context, int currentIndex) {
+                          return ItemCard(
+                           size: 'small',item: widget.items[currentIndex], 
+                           );
+                        },
+                      )),
+                ],
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          left: MediaQuery.of(context).size.width * .04,
+          top: MediaQuery.of(context).size.height * .05,
+          child: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.arrow_back),
+            iconSize: 40,
+            color: Colors.white,
+          ),
+        ),
+      ],
+    )));
   }
 
-  void initState() {
-   
-
-
-
-  }
+  void initState() {}
 
   Widget Sepertor(double height) {
     return LayoutBuilder(
@@ -243,31 +193,33 @@ class MuseumState extends State<MuseumView> {
   Widget _buildbackground() {
     return Stack(
       children: <Widget>[
-
         Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
-            child: Image.network('http://img.wataninet.com/2017/07/19867087_124775081462324_1074616540_o.jpg',fit: BoxFit.cover,)),
+            child: Image.network(
+              'http://img.wataninet.com/2017/07/19867087_124775081462324_1074616540_o.jpg',
+              fit: BoxFit.cover,
+            )),
         Container(
             child: new BackdropFilter(
-              filter: new ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
-              child: new Container(
-                width: MediaQuery.of(context).size.height,
-                height: MediaQuery.of(context).size.width,
-                decoration: new BoxDecoration(color: Colors.grey.shade200.withOpacity(0.0)),
-              ),
-            )),
-
+          filter: new ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+          child: new Container(
+            width: MediaQuery.of(context).size.height,
+            height: MediaQuery.of(context).size.width,
+            decoration:
+                new BoxDecoration(color: Colors.grey.shade200.withOpacity(0.0)),
+          ),
+        )),
       ],
     );
   }
 }
 
 class MuseumView extends StatefulWidget {
-  final Map Museum;
-  final List <
+  final Site Museum;
+  final List<TourItem> items;
 
-  const MuseumView({Key key, this.Museum}) : super(key: key);
+  const MuseumView({Key key, this.Museum, this.items}) : super(key: key);
 
   MuseumState createState() => MuseumState();
 }

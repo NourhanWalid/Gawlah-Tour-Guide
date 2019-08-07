@@ -81,11 +81,7 @@ class ArtistProfileState extends State<ArtistProfile> {
                 controller: PageController(keepPage: true,viewportFraction:0.5712),
                 pageSnapping: false,
                 children: <Widget>[
-                 ItemCard(size: 'small',tag: '1',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg',),
-                 ItemCard(size: 'small',tag: '2',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg/800px-Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg',),
-                 ItemCard(size: 'small',tag: '3',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg/1024px-Van-willem-vincent-gogh-die-kartoffelesser-03850.jpg',),
-                 ItemCard(size: 'small',tag: '4',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Vincent_van_Gogh_-_Worn_Out_%28F997%29.jpg/800px-Vincent_van_Gogh_-_Worn_Out_%28F997%29.jpg',),
-                 ItemCard(size: 'small',tag: '5',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg/800px-Stilleven_met_bijbel_-_s0008V1962_-_Van_Gogh_Museum.jpg',),
+                  
                 ],
               ),
             ),

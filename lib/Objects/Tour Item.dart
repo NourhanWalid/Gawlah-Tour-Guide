@@ -10,7 +10,7 @@ class TourItem {
   final int id;
   final String name;
   final String info;
-  final List<String> images;
+  final String image;
   final List<String> tags;
   final String period;
   final String counrty;
@@ -20,7 +20,7 @@ class TourItem {
     @required this.name,
     @required this.id,
     @required this.info,
-    @required this.images,
+    @required this.image,
     @required this.tags,
     @required this.period,
     @required this.counrty,
@@ -34,7 +34,7 @@ class TourItem {
       : assert(jsonMap['name'] != null),
         assert(jsonMap['id'] != null),
         assert(jsonMap['info'] != null),
-        assert(jsonMap['images'] != null),
+        assert(jsonMap['image'] != null),
         assert(jsonMap['tags'] != null),
         assert(jsonMap['period'] != null),
         assert(jsonMap['counrty'] != null),
@@ -42,7 +42,7 @@ class TourItem {
         name = jsonMap['name'],
         id = jsonMap['id'],
         info = jsonMap['info'],
-        images = jsonMap['images'],
+        image = jsonMap['image'],
         tags = jsonMap['tags'],
         period = jsonMap['period'],
         counrty = jsonMap['counrty'],
