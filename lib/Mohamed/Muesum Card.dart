@@ -43,7 +43,7 @@ class MuesumCard extends StatelessWidget {
             ),
             Positioned(
               bottom: 10,
-                child: Text(muesum.name,style: TextStyle(fontStyle: FontStyle.italic,fontSize: 35,color: Colors.white),))
+                child: Text(muesum.name,style: TextStyle(fontStyle: FontStyle.italic,fontSize: 25,color: Colors.white),))
           ],
         ),
       ),

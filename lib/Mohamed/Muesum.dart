@@ -154,7 +154,7 @@ class MuseumState extends State<MuseumView> {
           top: MediaQuery.of(context).size.height * .05,
           child: IconButton(
             onPressed: () {
-              Navigator.push(context,MaterialPageRoute(builder: (context)=>Example()));
+              Navigator.pop(context,MaterialPageRoute(builder: (context)=>Example()));
             },
             icon: Icon(Icons.arrow_back_ios,color: Colors.black,),
             iconSize: 40,
