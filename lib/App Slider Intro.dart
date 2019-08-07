@@ -1,69 +1,60 @@
-import 'package:fancy_on_boarding/fancy_on_boarding.dart';
-import 'package:fancy_on_boarding/page_model.dart';
 import 'package:flutter/material.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
-class SliderIntro extends StatelessWidget {
-  const SliderIntro({Key key}) : super(key: key);
+void main() => runApp(MaterialApp(home: BottomNavBar()));
+
+class BottomNavBar extends StatefulWidget {
+  @override
+  _BottomNavBarState createState() => _BottomNavBarState();
+}
+
+class _BottomNavBarState extends State<BottomNavBar> {
+  int _page = 0;
+  GlobalKey _bottomNavigationKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
-    final pageList = [
-      PageModel(
-          color: const Color(0xFF678FB4),
-          heroAssetPath: 'assets/hotels.png',
-          title: Text('Hotels',
-              style: TextStyle(
-                fontWeight: FontWeight.w800,
-                color: Colors.white,
-                fontSize: 34.0,
-              )),
-          body: Text('All hotels and hostels are sorted by hospitality rating',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18.0,
-              )),
-          iconAssetPath: 'assets/key.png'),
-      PageModel(
-          color: const Color(0xFF65B0B4),
-          heroAssetPath: 'assets/banks.png',
-          title: Text('Banks',
-              style: TextStyle(
-                fontWeight: FontWeight.w800,
-                color: Colors.white,
-                fontSize: 34.0,
-              )),
-          body: Text(
-              'We carefully verify all banks before adding them into the app',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18.0,
-              )),
-          iconAssetPath: 'assets/wallet.png'),
-      PageModel(
-        color: const Color(0xFF9B90BC),
-        heroAssetPath: 'assets/stores.png',
-        title: Text('Store',
-            style: TextStyle(
-              fontWeight: FontWeight.w800,
-              color: Colors.white,
-              fontSize: 34.0,
-            )),
-        body: Text('All local stores are categorized for your convenience',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 18.0,
-            )),
-        iconAssetPath: 'assets/shopping_cart.png',
-      ),
-    ];
     return Scaffold(
-      body: FancyOnBoarding(
-        pageList: pageList,
-        mainPageRoute: '/mainPage',
-      ),
-    );
+        bottomNavigationBar: CurvedNavigationBar(
+          key: _bottomNavigationKey,
+          index: 0,
+          height: 60.0,
+          items: <Widget>[
+            Icon(Icons.add, size: 30),
+            Icon(Icons.list, size: 30),
+            Icon(Icons.compare_arrows, size: 30),
+            Icon(Icons.call_split, size: 30),
+            Icon(Icons.perm_identity, size: 30),
+          ],
+          
+          buttonBackgroundColor: Colors.white,
+          backgroundColor: Colors.blueAccent,
+          animationCurve: Curves.easeInOut,
+          animationDuration: Duration(milliseconds: 200),
+          onTap: (index) {
+            setState(() {
+              _page = index;
+            });
+          },
+        ),
+        body: Container(
+          color: Colors.blueAccent,
+          height: MediaQuery.of(context).size.height,
+          child: Center(
+            child: Column(
+              children: <Widget>[
+                Text(_page.toString(), textScaleFactor: 10.0),
+                RaisedButton(
+                  child: Text('Go To Page of index 1'),
+                  onPressed: () {
+                    final CurvedNavigationBarState navBarState =
+                        _bottomNavigationKey.currentState;
+                    navBarState.setPage(1);
+                  },
+                )
+              ],
+            ),
+          ),
+        ));
   }
 }

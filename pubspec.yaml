@@ -51,9 +51,11 @@ dependencies:
   local_auth: ^0.5.2+4
   flutter_xlider: ^2.5.1
   cached_network_image: ^1.1.1
+  flutter_linkify: ^2.1.0
    
   palette_generator: ^0.2.0
 
+  curved_navigation_bar: ^0.3.0
 
 
   flutter:
