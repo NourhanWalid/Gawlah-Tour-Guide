@@ -17,7 +17,6 @@ class Site {
   final Map<String, String> tickets;
   final Map<String, String> openning_hours;
   final List<TourItem> items;
-  final IndoorMap indoorMap;
 
   const Site({
     @required this.name,
@@ -27,15 +26,13 @@ class Site {
     @required this.tickets,
     @required this.openning_hours,
     @required this.items,
-    @required this.indoorMap,
   })  : assert(name != null),
         assert(info != null),
         assert(type != null),
         assert(image != null),
         assert(tickets != null),
         assert(openning_hours != null),
-        assert(items != null),
-        assert(indoorMap != null);
+        assert(items != null);
 
   Site.fromJson(Map jsonMap)
       : assert(jsonMap['name'] != null),
@@ -45,7 +42,7 @@ class Site {
         assert(jsonMap['openning_hours'] != null),
         assert(jsonMap['tickets'] != null),
         assert(jsonMap['items'] != null),
-        assert(jsonMap['indoorMap'] != null),
+
 
         
         name = jsonMap['name'],
@@ -53,7 +50,6 @@ class Site {
         type = jsonMap['type'],
         image = jsonMap['image'],
         openning_hours = jsonMap['openning_hours'],
-        indoorMap = jsonMap['indoorMap'],
         tickets = jsonMap['tickets'],
         items = jsonMap['items'];
 }

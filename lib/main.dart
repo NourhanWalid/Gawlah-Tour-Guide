@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:gawla/Mohamed/Artist%20Profile.dart';
+import 'package:gawla/Mohamed/Muesum.dart';
+import 'package:gawla/Objects/Site.dart';
+import 'package:gawla/Objects/Tour%20Item.dart';
 import 'package:gawla/gawla1/Cards/itemcard.dart';
 import 'package:gawla/gawla2/palette.dart';
 import 'package:gawla/gawla2/splitter.dart';
 import 'package:gawla/gawla2/test.dart';
 import 'package:gawla/gawla2/tourview.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 import 'App Slider Intro.dart';
 import 'gawla1/itemview.dart';
@@ -28,10 +32,26 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key key}) : super(key: key);
-
+  Site museum = new Site(
+      name: 'Egyptian Museum',
+      image:
+          'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
+      info: '.....',
+      type: 'Museum',
+      items: [
+        new TourItem(
+            info: '.........',
+            name: 'abo galmbo',
+            image:
+                'https://mpng.pngfly.com/20181118/yjp/kisspng-logos-ancient-egypt-egyptian-language-egyptian-mus-logo-museu-egipcio-by-pearllite-on-deviantart-5bf18a50adb709.1176919915425562407116.jpg',
+            counrty: 'Mother Russia',
+            id: 121999,
+            period: '......',
+            location: LatLng(17, 76),
+                )
+      ]);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: ArtistProfile(tag: 'hey',image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/810px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg',)));
+    return Scaffold(body: Center(child: MuseumView()));
   }
 }
