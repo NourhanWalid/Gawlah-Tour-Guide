@@ -60,7 +60,7 @@ class TourView extends StatelessWidget {
                           fillColor: Colors.amber,
                           itemSize: 20,
                           borderColor: Colors.blue,
-                          allowHalfRating: true,
+                          allowHalfRating: true, onRatingUpdate: (double rating) {},
                           
                         ),
                       ),
