@@ -132,7 +132,7 @@ class MuseumState extends State<MuseumView> {
                   ),
                   SizedBox(height: MediaQuery.of(context).size.height * .02),
                   Container(
-                      height: 300,
+                      height: 250,
                       width: MediaQuery.of(context).size.width,
                       child: PageView.builder(
                         physics: BouncingScrollPhysics(),
@@ -140,7 +140,7 @@ class MuseumState extends State<MuseumView> {
                         itemCount: widget.items.length,
                         itemBuilder: (context, int currentIndex) {
                           return ItemCard(
-                           size: 'small',item: widget.items[currentIndex], 
+                           size: 'small',item: widget.items[currentIndex],
                            );
                         },
                       )),
