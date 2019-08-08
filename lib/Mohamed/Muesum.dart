@@ -197,7 +197,7 @@ class MuseumState extends State<MuseumView> {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             child: Image.network(
-              'http://img.wataninet.com/2017/07/19867087_124775081462324_1074616540_o.jpg',
+              '',
               fit: BoxFit.cover,
             )),
         Container(
