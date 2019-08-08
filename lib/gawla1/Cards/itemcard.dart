@@ -29,7 +29,7 @@ class ItemCard extends StatelessWidget {
                       tag: 'tour',
                       //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
                       child: Image.network(
-                        'https://uploads2.wikiart.org/images/kamal-ud-din-behzad/yusef-and-zuleykha-detail-1488.jpg',
+                        'https://images-na.ssl-images-amazon.com/images/I/61eVm8hdKSL._AC_SY400_.jpg',
                         fit: BoxFit.fill,
                       ),
                     )),
@@ -108,7 +108,7 @@ class ItemCard extends StatelessWidget {
                       tag: 'tour',
                       //'https://upload.wikimedia.org/wikipedia/commons/6/6c/Yusef_Zuleykha.jpg',
                       child: Image.network(
-                        'https://uploads2.wikiart.org/images/kamal-ud-din-behzad/yusef-and-zuleykha-detail-1488.jpg',
+                        'https://media.ceetiz.com/activity/QATDOH011/thumbnails/642x450/13-10.JPG',
                         fit: BoxFit.fill,
                       ),
                     )),
@@ -126,7 +126,7 @@ class ItemCard extends StatelessWidget {
                 ),
                 Positioned(
                   left: MediaQuery.of(context).size.width * 0.72 * .05,
-                  bottom: MediaQuery.of(context).size.width * 0.72 * .02,
+                  bottom: MediaQuery.of(context).size.width * 0.72 * .03,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class BasicMap extends StatefulWidget {
+  
   @override
   BasicMapState createState() => BasicMapState();
 }
@@ -295,12 +296,14 @@ fillColor: Colors.transparent
 
   @override
   Widget build(BuildContext context) {
+      
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Maps Sample App'),
-          backgroundColor: Colors.green[700],
-        ),
+        
+        //appBar: AppBar(
+          //title: Text('Maps Sample App'),
+          //backgroundColor: Colors.green[700],
+        //),
         body: GoogleMap(
           mapType: MapType.none,
           polygons: pset,

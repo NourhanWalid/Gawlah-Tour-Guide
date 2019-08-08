@@ -22,7 +22,7 @@ class ReviewCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Container(
-            color: Colors.white,
+            color: Colors.transparent,
             //height: MediaQuery.of(context).size.height*0.5,
             child: Padding(
               padding: const EdgeInsets.only(left:25.0,right: 25.0,top: 15,bottom: 20),
