@@ -60,7 +60,7 @@ class MuseumState extends State<MuseumView> {
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1.1,
                         fontSize: 22.0,
-                        color: Colors.black,
+                        color: Colors.white,
                       ),
                     ),
                     color: Colors.transparent,
@@ -74,7 +74,7 @@ class MuseumState extends State<MuseumView> {
                     child: Text(
                       widget.Museum.info,
                       style: TextStyle(
-                          color: Colors.black,
+                          color: Colors.white,
                           height: 1.4,
                           fontWeight: FontWeight.bold),
                     ),
@@ -88,7 +88,7 @@ class MuseumState extends State<MuseumView> {
                   ),
                   Text(
                     'From : 10 To 15 Today',
-                    style: TextStyle(fontSize: 15, color: Colors.black54),
+                    style: TextStyle(fontSize: 15, color: Colors.white),
                   ),
                   SizedBox(height: MediaQuery.of(context).size.height * .025),
                   Sepertor(1),
@@ -105,21 +105,21 @@ class MuseumState extends State<MuseumView> {
                     children: <Widget>[
                       Text(
                         'Children : ' + '10 LE',
-                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                        style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
                       SizedBox(
                         height: MediaQuery.of(context).size.height * 0.01,
                       ),
                       Text(
                         'Children : ' + '10 LE',
-                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                        style: TextStyle(fontSize: 15, color: Colors.white),
                       ),
                       SizedBox(
                         height: MediaQuery.of(context).size.height * 0.01,
                       ),
                       Text(
                         'Children : ' + '10 LE',
-                        style: TextStyle(fontSize: 15, color: Colors.black54),
+                        style: TextStyle(fontSize: 15, color: Colors.white),
                       )
                     ],
                   ),
@@ -156,7 +156,7 @@ class MuseumState extends State<MuseumView> {
             onPressed: () {
               Navigator.pop(context,MaterialPageRoute(builder: (context)=>Example()));
             },
-            icon: Icon(Icons.arrow_back_ios,color: Colors.black,),
+            icon: Icon(Icons.arrow_back_ios,color: Colors.white,),
             iconSize: 40,
             color: Colors.white,
           ),
@@ -180,7 +180,7 @@ class MuseumState extends State<MuseumView> {
               width: dashWidth,
               height: dashHeight,
               child: DecoratedBox(
-                decoration: BoxDecoration(color: Colors.black),
+                decoration: BoxDecoration(color: Colors.white),
               ),
             );
           }),
@@ -197,7 +197,7 @@ class MuseumState extends State<MuseumView> {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             child: Image.network(
-              '',
+              'http://flirtingwiththeglobe.com/wp-content/uploads/2015/02/2361676532_a34532bcfb_m.jpg',
               fit: BoxFit.cover,
             )),
         Container(
