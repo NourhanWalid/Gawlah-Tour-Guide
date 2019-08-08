@@ -36,7 +36,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
           Positioned(
-            top: MediaQuery.of(context).size.height*0.07,
+            top: MediaQuery.of(context).size.height*0.092,
             left: MediaQuery.of(context).size.width*0.1,
             child: Container(
               width: 220,
@@ -53,7 +53,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
           Positioned(
-            top:MediaQuery.of(context).size.height*0.38,
+            top:MediaQuery.of(context).size.height*0.44,
             left:MediaQuery.of(context).size.width*0.11 ,
             child: Container(
               width:MediaQuery.of(context).size.width*0.75,
@@ -71,7 +71,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
           Positioned(
-            bottom: MediaQuery.of(context).size.height*0.03,
+            bottom: MediaQuery.of(context).size.height*0.06,
             child: Container(
               width: MediaQuery.of(context).size.width,
               height: 250,
@@ -87,7 +87,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
           Positioned(
-            top: MediaQuery.of(context).size.height*0.038,
+            top: MediaQuery.of(context).size.height*0.046,
             left: MediaQuery.of(context).size.width*0.01,
             child: GestureDetector(
               child: Icon(
@@ -101,7 +101,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
           Positioned(
-            top: MediaQuery.of(context).size.height*0.038,
+            top: MediaQuery.of(context).size.height*0.046,
             right: MediaQuery.of(context).size.width*0.138,
             child: GestureDetector(
               child: Icon(Icons.share, color: Colors.white),
@@ -111,7 +111,7 @@ class ArtistProfileState extends State<ArtistProfile> {
             ),
           ),
             Positioned(
-            top: MediaQuery.of(context).size.height*0.038,
+            top: MediaQuery.of(context).size.height*0.046,
             right: MediaQuery.of(context).size.width*0.043,
             child: LikeButton()
           ),
