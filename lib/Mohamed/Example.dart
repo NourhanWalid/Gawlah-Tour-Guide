@@ -188,7 +188,7 @@ class Example extends StatelessWidget {
                       muesum: Site(
                           name: 'Egyptian Museum',
                           image:
-                              'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
+                              'http://www.museumwnf.org/images/full/museums/eg/1/1.jpg',
                           info: '.....',
                           type: 'Museum')),
                   Padding(padding: EdgeInsets.all(20)),
@@ -239,7 +239,7 @@ class Example extends StatelessWidget {
                       muesum: Site(
                           name: 'Egyptian Museum',
                           image:
-                              'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
+                              'http://www.egypttoday.com/images/larg/50984.jpg',
                           info: '.....',
                           type: 'Museum')),
                   Padding(padding: EdgeInsets.all(20)),
@@ -290,7 +290,7 @@ class Example extends StatelessWidget {
                       muesum: Site(
                           name: 'Egyptian Museum',
                           image:
-                              'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
+                              'https://upload.wikimedia.org/wikipedia/commons/d/da/GD-EG-Alex-Mus%C3%A9eNat040.JPG',
                           info: '.....',
                           type: 'Museum')),
                   Padding(padding: EdgeInsets.all(20)),
@@ -341,7 +341,7 @@ class Example extends StatelessWidget {
                       muesum: Site(
                           name: 'Egyptian Museum',
                           image:
-                              'https://pbs.twimg.com/profile_images/822514032917757952/h9nWqRzh_400x400.jpg',
+                              'https://www.ask-aladdin.com/images/museums/Egypt-Royal_Jewelry_Museum2.jpg',
                           info: '.....',
                           type: 'Museum')),
                 ],
