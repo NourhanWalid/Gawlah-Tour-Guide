@@ -61,7 +61,6 @@ class TourView extends StatelessWidget {
                           itemSize: 20,
                           borderColor: Colors.blue,
                           allowHalfRating: true,
-                          
                         ),
                       ),
                       HSpacer(0.02),
