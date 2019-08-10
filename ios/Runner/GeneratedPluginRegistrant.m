@@ -3,7 +3,10 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
+#import <background_fetch/BackgroundFetchPlugin.h>
 #import <camera/CameraPlugin.h>
+#import <device_info/DeviceInfoPlugin.h>
+#import <flutter_background_geolocation/FLTBackgroundGeolocationPlugin.h>
 #import <flutter_statusbarcolor/FlutterStatusbarcolorPlugin.h>
 #import <google_maps_flutter/GoogleMapsPlugin.h>
 #import <local_auth/LocalAuthPlugin.h>
@@ -14,7 +17,10 @@
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+  [BackgroundFetchPlugin registerWithRegistrar:[registry registrarForPlugin:@"BackgroundFetchPlugin"]];
   [CameraPlugin registerWithRegistrar:[registry registrarForPlugin:@"CameraPlugin"]];
+  [FLTDeviceInfoPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTDeviceInfoPlugin"]];
+  [FLTBackgroundGeolocationPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTBackgroundGeolocationPlugin"]];
   [FlutterStatusbarcolorPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterStatusbarcolorPlugin"]];
   [FLTGoogleMapsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTGoogleMapsPlugin"]];
   [FLTLocalAuthPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTLocalAuthPlugin"]];

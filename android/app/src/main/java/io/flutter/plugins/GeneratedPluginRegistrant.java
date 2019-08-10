@@ -1,7 +1,10 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
+import com.transistorsoft.flutter.backgroundfetch.BackgroundFetchPlugin;
 import io.flutter.plugins.camera.CameraPlugin;
+import io.flutter.plugins.deviceinfo.DeviceInfoPlugin;
+import com.transistorsoft.flutter.backgroundgeolocation.FLTBackgroundGeolocationPlugin;
 import com.fuyumi.flutterstatusbarcolor.flutterstatusbarcolor.FlutterStatusbarcolorPlugin;
 import io.flutter.plugins.googlemaps.GoogleMapsPlugin;
 import io.flutter.plugins.localauth.LocalAuthPlugin;
@@ -17,7 +20,10 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
+    BackgroundFetchPlugin.registerWith(registry.registrarFor("com.transistorsoft.flutter.backgroundfetch.BackgroundFetchPlugin"));
     CameraPlugin.registerWith(registry.registrarFor("io.flutter.plugins.camera.CameraPlugin"));
+    DeviceInfoPlugin.registerWith(registry.registrarFor("io.flutter.plugins.deviceinfo.DeviceInfoPlugin"));
+    FLTBackgroundGeolocationPlugin.registerWith(registry.registrarFor("com.transistorsoft.flutter.backgroundgeolocation.FLTBackgroundGeolocationPlugin"));
     FlutterStatusbarcolorPlugin.registerWith(registry.registrarFor("com.fuyumi.flutterstatusbarcolor.flutterstatusbarcolor.FlutterStatusbarcolorPlugin"));
     GoogleMapsPlugin.registerWith(registry.registrarFor("io.flutter.plugins.googlemaps.GoogleMapsPlugin"));
     LocalAuthPlugin.registerWith(registry.registrarFor("io.flutter.plugins.localauth.LocalAuthPlugin"));

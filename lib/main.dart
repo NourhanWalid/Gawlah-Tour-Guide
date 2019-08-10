@@ -9,6 +9,7 @@ import 'App Slider Intro.dart';
 import 'gawla1/itemview.dart';
 import 'gawla1/itemview2.dart';
 import 'gawla2/tourcard.dart';
+import 'newmap.dart';
 
 void main() => runApp(MyApp());
 
@@ -31,6 +32,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomNavBar();
+    return NewMap();
   }
 }
